@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Skill Match</title>
+    <link rel="stylesheet" href="/static/css/base.css">
+    <link rel="stylesheet" href="/static/css/layout.css">
+    <link rel="stylesheet" href="/static/css/theme.css">
+
+</head>
+<body>
+
+<div class="app-container">
+    <h1>Skill Matching App</h1>
+    <p class="subtitle">Find jobs based on your skills</p>
+
+    <form action="/match" method="post" class="skill-form">
+        <input 
+            type="text" 
+            name="skills" 
+            placeholder="e.g. python, html, excel"
+            required
+        >
+        <button type="submit">Find Jobs</button>
+    </form>
+</div>
+
+</body>
+</html>
